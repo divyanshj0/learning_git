@@ -22,3 +22,10 @@ CREATING NEW REPOSITORY
     git branch 
     git branch -M name << to change main old name to new name
     git push origin main
+
+BRANCH COMMANDS
+    git branch
+    git branch -M name
+    git checkout <-branch name>
+    git checkout -b <-new branch name>
+    git branch -d <-delete branch name>
