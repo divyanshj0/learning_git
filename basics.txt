@@ -1,0 +1,24 @@
+FOR CONFIGURE GIT
+    git config --global user.name "My name"
+    git config --global user.email "email id"
+    git config --list
+
+CLONE REPOSITORY FROM REMOTE TO LOCAL 
+    git clone <link>
+    git status
+
+ADD AND COMMIT
+    git add <-file name->  << for single file
+    git add .  << for all file 
+    git commit -m "message"
+
+PUSH ON GITHUB REPOSITORY
+    git push origin main 
+    git push -u origin main  << after this "-u"  no need to write origin main while pushing in same REPOSITORY
+
+CREATING NEW REPOSITORY
+    git init
+    git remote add origin <-link> << to add remote origin at this link
+    git branch 
+    git branch -M name << to change main old name to new name
+    git push origin main
